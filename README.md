@@ -1,2 +1,2 @@
-# Lavish-Blade-Knife-Store
+# Knife-Store
 Html and Css used to make this
