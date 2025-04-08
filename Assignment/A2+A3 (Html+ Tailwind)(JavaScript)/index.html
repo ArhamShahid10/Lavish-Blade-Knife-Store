@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<script>
+    // Function to display an alert when a product is clicked
+    function showProductAlert(productName) {
+        alert(`You clicked on ${productName}!`);
+    }
+
+    // Function to toggle dark mode
+    function toggleDarkMode() {
+        document.body.classList.toggle('bg-gray-900');
+        document.body.classList.toggle('text-white');
+    }
+</script>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Knife Store</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="font-sans bg-gray-100 m-0 p-0">
+
+  <header class="bg-gray-800 text-white py-4 text-center">
+    <h1 class="text-2xl font-bold">Welcome to My Knife Store</h1>
+  </header>
+
+  <nav class="bg-gray-700 text-white py-2 text-center space-x-4">
+    <a href="file.html" target="_blank" class="hover:underline">Home</a>
+    <a href="Product.html" target="_blank" class="hover:underline">Products</a>
+    <a href="about.html" target="_blank" class="hover:underline">About Us</a>
+    <a href="Contact.html" target="_blank" class="hover:underline">Contact</a>
+    <a href="blog.html" target="_blank" class="hover:underline">Blog</a>
+  </nav>
+
+  <div class="p-5 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+    <div class="bg-white border border-gray-300 p-4 text-center shadow-md">
+      <img src="knife1.jpg" alt="Knife 1" class="w-full h-auto mb-2">
+      <h2 class="text-lg font-semibold mb-1">Knife 1</h2>
+      <p class="text-gray-600">High-quality stainless steel knife.</p>
+    </div>
+
+    <div class="bg-white border border-gray-300 p-4 text-center shadow-md">
+      <img src="knife2.jpg" alt="Knife 2" class="w-full h-auto mb-2">
+      <h2 class="text-lg font-semibold mb-1">Knife 2</h2>
+      <p class="text-gray-600">Durable and sharp kitchen knife.</p>
+    </div>
+
+    <div class="bg-white border border-gray-300 p-4 text-center shadow-md">
+      <img src="knife3.jpg" alt="Knife 3" class="w-full h-auto mb-2">
+      <h2 class="text-lg font-semibold mb-1">Knife 3</h2>
+      <p class="text-gray-600">Premium quality handmade knife.</p>
+    </div>
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<script>
+    function showAlert(message) {
+        alert(message);
+    }
+
+    function toggleDarkMode() {
+        document.body.classList.toggle('bg-gray-900');
+        document.body.classList.toggle('text-white');
+        document.body.classList.toggle('bg-gray-100');
+        document.body.classList.toggle('text-gray-800');
+    }
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Knife Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto text-center">
+            <h1 class="text-4xl font-bold">Knife Enthusiast Blog</h1>
+            <p class="text-lg mt-2">Exploring the art and utility of knives</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto py-10">
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold mb-4">The History of Knives</h2>
+            <p class="text-lg leading-relaxed">
+                Knives have been an essential tool for humans since the dawn of time. From ancient stone blades to modern steel masterpieces, knives have evolved to serve countless purposes.
+            </p>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold mb-4">Types of Knives</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-2">Chef's Knife</h3>
+                    <p>A versatile kitchen tool for chopping, slicing, and dicing.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-2">Pocket Knife</h3>
+                    <p>A compact, foldable knife for everyday carry and utility.</p>
+                </div>
+                <div class="bg-white shadow-md rounded-lg p-6">
+                    <h3 class="text-xl font-semibold mb-2">Hunting Knife</h3>
+                    <p>Designed for outdoor use, ideal for skinning and cutting.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-10">
+            <h2 class="text-3xl font-bold mb-4">Knife Maintenance Tips</h2>
+            <ul class="list-disc list-inside text-lg">
+                <li>Keep your knives sharp for better performance and safety.</li>
+                <li>Clean and dry your knives after each use to prevent rust.</li>
+                <li>Store knives in a knife block or magnetic strip to protect the blades.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="bg-gray-900 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 Knife Enthusiast Blog. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
